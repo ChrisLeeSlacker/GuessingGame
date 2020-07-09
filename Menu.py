@@ -1,5 +1,3 @@
-# Guess a random number game 1-100, 1-10
-# Made by Christopher Lee Christensen June 2020.
 # Imports
 import sys
 

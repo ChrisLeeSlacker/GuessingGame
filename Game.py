@@ -1,5 +1,3 @@
-# Guess a random number game 1-100, 1-10
-# Made by Christopher Lee Christensen June 2020.
 # Imports
 import random
 import sys
@@ -59,8 +57,9 @@ def enterNum100():
                 remarks = 'high'
             else:
                 remarks = 'low'
-            print("Wrong number!\n**********************\nYour guess is too", remarks, "\nTry "
-                                                                                       "Again\n**********************")
+            print(f"Wrong number!\n**********************\nYour guess {guess} is too", remarks, "\nTry "
+                                                                                                "Again\n"
+                                                                                                "**********************")
             print("You have", 5 - tries, "left!")
             if tries == 4:
                 # Last Try
